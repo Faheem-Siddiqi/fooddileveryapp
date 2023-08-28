@@ -1,0 +1,19 @@
+.navParent {
+    background-color: transparent !important;
+    box-shadow: 0 2px 14px rgba(0, 0, 0, .4);
+}
+
+.navbar ull li a {
+    color: grey !important;
+    font-weight: 500;
+    transition: color 0.3s;
+}
+
+.navbar ul li a:hover {
+    color: #FD1FA4;
+}
+
+.nav-link:focus {
+    color: #FD1FA4 !important;
+    font-weight: 500;
+}

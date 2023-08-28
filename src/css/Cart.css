@@ -1,0 +1,54 @@
+.image{
+    width:150px;
+    height: 150px;
+}
+
+.cart{
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color:#fff ;    
+    border-bottom:1px solid grey;
+    margin-top: 2px;
+}
+
+.add-remove{
+   background-color: #FD1FA4;
+   color: white;
+   border: 2px solid transparent;
+
+}
+
+
+
+.CountInput{
+    border: none;
+    width: 30%;
+    text-align:center;
+   
+}
+
+
+.opt1{
+    background-color: #FD1FA4;
+    color: white;
+    border: 2px solid transparent;
+    padding: 12px;
+    margin: 4px;
+}
+
+.opt2{
+    background-color: transparent;
+    color: rgb(2, 2, 2);
+    border: 2px solid #FD1FA4;
+    padding: 12px;
+    margin: 4px;
+
+}
+@media (max-width: 768px) {
+    .cart{
+       flex-direction: column;
+   
+    }
+  }
